@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60.5dp"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:layout_width="31.5dp"
+            android:layout_height="31.5dp"
+            android:id="@+id/specialization_imageIV"
+            android:layout_marginLeft="15.0dp"
+            android:background="@drawable/job_placeholder"
+            android:layout_marginTop="16.0dp" />
+        <TextView
+            android:text="TextLarge "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/specialization_nameTV"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="11.0dp"
+            android:textAllCaps="true"
+            android:textColor="@color/firstScreenButtonTextColor"
+            android:textSize="16dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginRight="8.5dp" />
+        <TextView
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/count_specs"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="11.0dp"
+            android:textSize="20dp"
+            android:textColor="@color/lightBlueColor"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

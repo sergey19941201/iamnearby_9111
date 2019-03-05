@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:layout_marginTop="9.5dp"
+        android:layout_marginBottom="8.5dp">
+		<TextView
+			android:text="Услуга"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/serviceTV"
+			android:textColor="@color/agreementTextColor"
+			android:textSize="15dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0.0dp"
+			android:layout_weight="4"
+			android:layout_marginRight="102.0dp" />
+        <TextView
+            android:text="@string/price"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/priceTV"
+            android:textColor="@color/lightBlueColor"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0.0dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20.5dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:maxWidth="80dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout3"
+        android:background="#ececf4ff"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+</LinearLayout>

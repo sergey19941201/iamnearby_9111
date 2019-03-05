@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:text="@string/add_specialization2"
+        android:layout_width="match_parent"
+        android:layout_height="53.0dp"
+        android:id="@+id/add_specBn"
+        android:layout_marginLeft="8.5dp"
+        android:layout_marginRight="8.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button_corners"
+        android:textColor="@android:color/white"
+        app:textAllCaps="true"
+        android:textAllCaps="true" />
+    <Button
+        android:text="@string/not_now_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/not_nowBn"
+        android:background="@android:color/background_light"
+        android:textColor="@color/lightBlueColor"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="true" />
+    <ImageView
+        android:layout_width="131.0dp"
+        android:layout_height="131.0dp"
+        android:id="@+id/imageView1"
+        android:background="@drawable/what_else_you_know_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98.0dp" />
+    <TextView
+        android:text="@string/add_more_specialization"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="170.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@color/agreementTextColor"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="254.5dp" />
+</RelativeLayout>

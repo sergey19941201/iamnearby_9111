@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <Button
+        android:text="@string/resend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/resendBn"
+        android:background="@android:color/background_light"
+        android:textColor="@color/lightBlueColor"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false" />
+    <ImageView
+        android:layout_width="131.0dp"
+        android:layout_height="131.0dp"
+        android:id="@+id/imageView1"
+        android:background="@drawable/mail_big"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98.0dp" />
+    <TextView
+        android:text="@string/on_your_email"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="259.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewwe"
+        android:textColor="@color/agreementTextColor"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="254.5dp" />
+    <TextView
+        android:text="@string/link_lifetime_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="259.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/countdown_TV"
+        android:textColor="@color/agreementTextColor"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="373.0dp" />
+    <TextView
+        android:text="@string/will_send_email"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="204.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="@color/agreementTextColor"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="295.5dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailTV"
+        android:textColor="@color/lightBlueColor"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275.5dp"
+        android:textAlignment="textEnd" />
+    <TextView
+        android:text="@string/countdown_value"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timerTV"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="398.5dp"
+        android:background="@drawable/timer_bg"
+        android:textColor="@color/lightBlueColor"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    <ProgressBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/activityIndicator"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateOnly="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginBottom="15dp" />
+    <Button
+        android:text="@string/complete_reg_procedure"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/completeRegBn"
+        android:background="@android:color/background_light"
+        android:textColor="@color/lightBlueColor"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:layout_marginBottom="60.5dp" />
+</RelativeLayout>

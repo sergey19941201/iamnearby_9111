@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	<RelativeLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="68.0dp"
+		android:id="@+id/linearLayout1">
+		<TextView
+			android:text="@string/specialization_text"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/specialization_titleTV"
+			android:textColor="@android:color/background_dark"
+			android:layout_marginLeft="14.5dp"
+			android:layout_marginTop="9.0dp"
+			android:layout_marginRight="48.0dp"
+			android:maxLines="1"
+			android:ellipsize="end" />
+		<RelativeLayout
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="43.5dp"
+			android:layout_height="43.5dp"
+			android:id="@+id/del_specRL"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="6.0dp"
+			android:layout_centerVertical="true">
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/fsdfs"
+				android:background="@drawable/del_spec"
+				android:visibility="visible"
+				android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<TextView
+			android:text="Medium Text"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/specializationTV"
+			android:textColor="@color/lightBlueColor"
+			android:layout_marginLeft="14.5dp"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="9.0dp"
+			android:maxLines="1"
+			android:ellipsize="end"
+			android:layout_marginRight="48.0dp" />
+		<TextView
+			android:text="@string/add_specialization"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/add_specializationTV"
+			android:gravity="center"
+			android:layout_marginBottom="0.0dp"
+			android:textColor="@color/lightBlueColor"
+			android:layout_centerInParent="true"
+			android:visibility="gone" />
+	</RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:id="@+id/linearLayout2"
+        android:background="@color/mainSeparatorColor" />
+</LinearLayout>

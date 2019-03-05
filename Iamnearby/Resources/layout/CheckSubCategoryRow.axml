@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68.0dp"
+        android:id="@+id/linearLayout1">
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/specialization_nameTV"
+			android:layout_marginLeft="11.0dp"
+			android:textAllCaps="false"
+			android:textColor="@android:color/black"
+			android:textSize="16dp"
+			android:gravity="center_vertical"
+			android:text="TextLarge TextLarge TextLarge TextLarge TexttLarge TextLarge Text"
+			android:layout_marginRight="38.0dp"
+			android:visibility="visible" />
+		<CheckBox
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:theme="@style/CheckBoxStyle"
+			android:id="@+id/spec_checkBox"
+			android:checked="false"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="9.5dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:id="@+id/linearLayout2"
+        android:background="@color/mainSeparatorColor" />
+</LinearLayout>

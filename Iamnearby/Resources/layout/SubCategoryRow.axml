@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_gravity="left"
+        android:foregroundGravity="left"
+        android:gravity="left">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/specialization_nameTV"
+            android:layout_marginLeft="11.0dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:gravity="center_vertical"
+            android:text="Large TexLarge TextLarge TextLarge TextLarge TexttLarge TexLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TextLarge TexttLarge TextLarge Text"
+            android:layout_marginRight="11.0dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:id="@+id/linearLayout2"
+        android:background="@color/mainSeparatorColor" />
+</LinearLayout>

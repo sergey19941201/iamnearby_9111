@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="53.5dp"
+        android:id="@+id/linearLayout1"
+        android:background="@android:color/background_light">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="53.5dp"
+            android:id="@+id/backRelativeLayout"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="13.5dp"
+                android:layout_height="13.5dp"
+                android:id="@+id/back_button"
+                android:background="@drawable/back_arrow_blue"
+                android:layout_marginLeft="15.0dp"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView
+            android:text="@string/registration"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/buttonBackgroundColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/headerTV"
+            android:layout_marginLeft="69.0dp"
+            android:layout_centerVertical="true"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="53.5dp"
+        android:background="@color/mainSeparatorColor" />
+    <ProgressBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/activityIndicator"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateOnly="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginBottom="15dp" />
+    <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:text="@string/send_text"
+        android:layout_width="match_parent"
+        android:layout_height="53.0dp"
+        android:id="@+id/sendBn"
+        android:layout_marginLeft="8.5dp"
+        android:layout_marginRight="8.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11.0dp"
+        android:background="@drawable/button_corners"
+        android:textColor="@android:color/white"
+        app:textAllCaps="true"
+        android:textAllCaps="true" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:theme="@style/TextInputStyle"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textInputLayout3"
+        android:layout_marginLeft="8.5dp"
+        android:layout_marginRight="8.5dp"
+        android:layout_marginTop="238.5dp">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1"
+            android:hint="@string/form_email"
+            android:id="@+id/emailET" />
+    </android.support.design.widget.TextInputLayout>
+    <ImageView
+        android:layout_width="60.0dp"
+        android:layout_height="60.0dp"
+        android:id="@+id/mainImageIV"
+        android:background="@drawable/mail_small"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81.0dp" />
+    <TextView
+        android:text="@string/enter_email_text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoTV"
+        android:textColor="@color/agreementTextColor"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157.5dp"
+        android:layout_width="205.0dp" />
+</RelativeLayout>

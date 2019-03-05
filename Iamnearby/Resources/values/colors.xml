@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="clearColor">#00000000</color>
+  <color name="buttonBackgroundColor">#072883</color>
+  <color name="timerBackgroundColor">#ECF4FF</color>
+  <color name="agreementTextColor">#333333</color>
+  <color name="buttonTextColor">#FFFFFFFF</color>
+  <color name="lightBlueColor">#6996FF</color>
+  <color name="lightLightBlueColor">#ABCFF7</color>
+  <color name="mainSeparatorColor">#ECF4FF</color>
+  <color name="mainBackgroundColor">#FAFCFE</color>
+  <color name="firstScreenButtonTextColor">#0a3291</color>
+  <color name="firstScreenYellowTextColor">#ffe000</color>
+  <color name="textInputLayoutColor">#ABCFF7</color>
+  <color name="darkGray">#90000000</color>
+  <color name="disabledButton">#500a3291</color>
+  <color name="transparent">#00000000</color>
+  <color name="transparent75">#75000000</color>
+  <color name="now_color">#5093e5</color>
+  <color name="profile_separator_color">#ecf4ffff</color>
+  <color name ="red_color">#FF0000</color>
+  <color name ="navbar_color">#051e61</color>
+  <color name ="telephone_grey">#81868B</color>
+  <color name ="message_from_me_bg_color">#FCD98D</color>
+  <color name ="msg_time_gray">#828282</color>
+  <color name ="light_yellow">#FFFCF7</color>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="68.0dp"
+        android:id="@+id/linearLayout1"
+        android:background="@android:color/white">
+        <refractored.controls.CircleImageView
+            android:layout_width="39.0dp"
+            android:layout_height="37.5dp"
+            android:id="@+id/specialization_imageIV"
+            android:layout_marginLeft="15.0dp"
+            cardview:civ_border_width="0dp"
+            cardview:civ_border_color="#FF000000"
+            android:background="@drawable/job_placeholder"
+            android:layout_marginTop="13.5dp" />
+        <TextView
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/specialization_nameTV"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="11.0dp"
+            android:textAllCaps="true"
+            android:textColor="@color/firstScreenButtonTextColor"
+            android:textSize="14dp"
+            android:layout_marginRight="64.0dp" />
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/count_specs"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="16.5dp"
+            android:textSize="14dp"
+            android:textColor="@color/lightBlueColor"
+            android:visibility="visible" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:id="@+id/linearLayout2"
+        android:background="@color/mainSeparatorColor" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <ProgressBar
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/activityIndicator"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateOnly="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_marginBottom="15dp" />
+    <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:text="@string/continue_text"
+        android:layout_width="match_parent"
+        android:layout_height="53.0dp"
+        android:id="@+id/continueBn"
+        android:layout_marginLeft="8.5dp"
+        android:layout_marginRight="8.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11.0dp"
+        android:background="@drawable/button_corners"
+        android:textColor="@android:color/white"
+        app:textAllCaps="true"
+        android:textAllCaps="true" />
+    <ImageView
+        android:layout_width="143.0dp"
+        android:layout_height="143.0dp"
+        android:id="@+id/mainImageIV"
+        android:background="@drawable/what_else_you_know_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81.0dp" />
+    <TextView
+        android:text="@string/thanks_feedback_sent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoTV"
+        android:textColor="@color/agreementTextColor"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250.0dp"
+        android:layout_width="match_parent" />
+</RelativeLayout>

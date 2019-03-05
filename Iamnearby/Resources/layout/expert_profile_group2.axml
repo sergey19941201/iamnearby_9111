@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<RelativeLayout
+		android:orientation="vertical"
+		android:id="@+id/itemRL"
+		android:layout_width="match_parent"
+		android:layout_height="57dp"
+		android:visibility="visible"
+		android:background="@android:color/background_light">
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/linearLayout3"
+			android:background="#ececf4ff"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:visibility="visible"
+			android:layout_alignParentBottom="false" />
+		<ImageView
+			android:id="@+id/group_bttClick"
+			android:layout_width="11dp"
+			android:layout_height="7dp"
+			android:layout_alignParentRight="true"
+			android:visibility="visible"
+			android:background="@drawable/expandable_indic"
+			android:layout_centerVertical="true"
+			android:layout_marginRight="22.5dp"
+			android:clickable="false" />
+		<TextView
+			android:id="@+id/group_txtId"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:text="Group IdNo"
+			android:visibility="gone" />
+		<TextView
+			android:id="@+id/skillNameTV"
+			android:layout_centerVertical="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:textColor="@color/buttonBackgroundColor"
+			android:paddingTop="14dp"
+			android:paddingBottom="14dp"
+			android:layout_marginLeft="30dp"
+			android:textSize="14dp"
+			android:layout_marginRight="34.5dp"
+			android:ellipsize="end"
+			android:maxLines="1" />
+	</RelativeLayout>
+</RelativeLayout>

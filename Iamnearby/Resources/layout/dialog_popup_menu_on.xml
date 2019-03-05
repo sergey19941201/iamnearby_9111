@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/send_feedback"
+      android:title="@string/feedback_text"/>
+  <item android:id="@+id/clear_history"
+    android:title="@string/clear_chat_history"/>
+  <item android:id="@+id/blacklist"
+        android:title="@string/blacklist"/>
+  <item android:id="@+id/turn_on_notifications"
+        android:title="@string/turn_on_notifications"/>
+</menu>

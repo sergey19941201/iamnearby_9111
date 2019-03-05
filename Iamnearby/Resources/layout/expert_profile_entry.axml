@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/background_light"
+    android:layout_height="wrap_content"
+    android:paddingLeft="35dp">
+    <TextView
+        android:id="@+id/entry_txtId"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Group IdNo"
+        android:visibility="gone" />
+    <TextView
+        android:paddingLeft="20dp"
+        android:id="@+id/entry_txtName"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/entry_txtId"
+        android:text="Group IdNo"
+        android:visibility="gone" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout3"
+        android:background="@color/mainBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+        android:text="@string/description_text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionTitleTV"
+        android:textColor="@color/textInputLayoutColor"
+        android:layout_marginLeft="0.0dp"
+        android:textSize="15dp"
+        android:layout_marginTop="15.5dp" />
+    <TextView
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/categoryIdTV"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_red_dark" />
+    <TextView
+        android:text="описание....."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_text_dataTV"
+        android:textColor="@color/agreementTextColor"
+        android:layout_marginLeft="0.0dp"
+        android:textSize="15dp"
+        android:layout_marginTop="4.0dp"
+        android:layout_marginBottom="8.5dp"
+        android:layout_marginRight="20.5dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout3"
+        android:background="@color/mainBackgroundColor"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+        android:text="@string/services_and_prices"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/services_and_pricesTV"
+        android:textColor="@color/textInputLayoutColor"
+        android:layout_marginLeft="0.0dp"
+        android:textSize="15dp"
+        android:layout_marginTop="15.5dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_Services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dp"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight="0.0dp" />
+    <TextView
+        android:text="@string/portfolio"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/portfolioTitleTV"
+        android:textColor="@color/textInputLayoutColor"
+        android:layout_marginLeft="0.0dp"
+        android:textSize="15dp"
+        android:layout_marginTop="8.5dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/portfolio_recyclerView"
+        android:layout_width="fill_parent"
+        android:layout_height="81.5dp"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginBottom="8.5dp"
+        android:layout_marginTop="4.0dp" />
+</LinearLayout>

@@ -1,0 +1,254 @@
+<resources>
+  <string name="app_name">Я рядом</string>
+
+  <string name="form_username">Имя</string>
+  <string name="form_lastname">Фамилия</string>
+  <string name="form_middlename">Отчество</string>
+  <string name="form_phone">Телефон</string>
+  <string name="form_email">Электронная почта</string>
+  <string name="form_password">Пароль</string>
+  <string name="form_title">Название</string>
+
+  <string name="registration_agreement">
+    Продолжая регистрацию,
+    вы даете согласие на обработку
+    персональных данных
+  </string>
+
+  <string name="continue_text">Продолжить</string>
+  <string name="save_text">Сохранить</string>
+
+  <string name="specialization_text">Специализация</string>
+  <string name="add_specialization">+ Добавить специализацию</string>
+  <string name="add_specialization2">Добавить специализацию</string>
+  <string name="add_more_specialization">
+    Что еще вы умеете?
+    Добавьте еще один навык.
+  </string>
+  <string name="not_now_text">Не сейчас</string>
+
+  <string name="send_text">Отправить</string>
+  <string name="on_your_email">На ваш электронный адрес</string>
+
+
+  <string name="enter_email_text">
+    Введите вашу почту,
+    чтобы мы могли завершить
+    регистрацию
+  </string>
+  <string name="will_send_email">будет отправлено письмо для подтверждения регистрации. Если письмо не пришло — проверьте папку “Спам”.</string>
+
+  <string name="link_lifetime_text">Время действия ссылки:</string>
+  <string name="link_expired_text">Время действия ссылки истекло.</string>
+  <string name="resend_text">Отправить повторно</string>
+
+  <string name="enter_your_pass_text">Введите пароль для аккаунта\n {0}</string>
+
+
+  <string name="enter">Войти</string>
+  <string name="enter_by_email">Войти через почту</string>
+  <string name="close">Закрыть</string>
+  <string name="forget_password">Я не помню пароль</string>
+  <string name="check_email">Проверьте адрес\n {0}</string>
+  <string name="we_sent_link">Мы отправили вам ссылку\n для восстановления пароля</string>
+
+  <string name="link_for_enter">
+    Мы отправим вам на почту
+    ссылку для быстрого входа
+    в приложение
+  </string>
+  <string name="send_link">Отправить ссылку</string>
+  <string name="resend">Отправить повторно</string>
+
+  <string name="sent_link">
+    отправлено письмо
+    со ссылкой для входа.
+    Если письмо не пришло —
+    проверьте папку “Спам”.
+  </string>
+
+  <string name="add_category">Добавить категорию</string>
+  <string name="add_service">Добавить услугу</string>
+  <string name="add_photo">Добавить фото</string>
+
+  <string name="reviews_only">Только с отзывами</string>
+  <string name="city">Город</string>
+  <string name="distance_from_you">Расстояние от вас</string>
+
+  <string name="nothing">Ничего не нашлось</string>
+  <string name="no_feedback">Нет отзывов</string>
+
+  <string name="portfolio">Портфолио</string>
+  <string name="service">Услуга</string>
+  <string name="services_and_prices">Услуги и цены</string>
+  <string name="service_price">Стоимость</string>
+  <string name="service_name">Название услуги</string>
+
+  <string name="available_in_system">Доступность в системе</string>
+  <string name="online_text">Онлайн</string>
+  <string name="offline_text">Оффлайн</string>
+  <string name="description_text">Описание</string>
+  <string name="add_description_text">Добавьте описание специальности</string>
+
+  <string name="notification_text">Уведомления</string>
+  <string name="notification_on">Включены</string>
+  <string name="notification_off">Выключены</string>
+  <string name="change_password">Изменить пароль</string>
+  <string name="about_app">О приложении</string>
+  <string name="exit_text">Выход</string>
+  <string name="feedback_text">Оставить отзыв</string>
+  <string name="feedback_long_text">
+    Оставьте свой отзыв,
+    чтобы мы могли стать лучше.
+  </string>
+  <string name="feedback_long_long_long_text">Основными принципами моей профессиональной деятельности являются добросовестное отношение к порученному делу и неуклонное соблюдение законных прав и интересов своих доверителей. За свою работу я беру разумное вознаграждение, которое зависит от сложности дела и количества времени, затраченного для получения необходимого результата.</string>
+
+
+  <string name="your_mark">Ваша оценка</string>
+  <string name="your_feedback">Ваш отзыв</string>
+  <string name="text_of_feedback">Текст отзыва</string>
+  <string name="enter_my_account">Войти в мой аккаунт</string>
+
+  <string name="i_need_help">Я ищу помощь</string>
+  <string name="i_want_to_help">Я хочу помочь</string>
+  <string name="we_beside_we_help">Мы рядом, мы поможем</string>
+  <string name="registration">Регистрация</string>
+  <string name="your_specialization">Ваша специализация</string>
+  <string name="other">Другое</string>
+  <string name="countdown_value">15:00</string>
+  <string name="login">Вход</string>
+  <string name="specialists">Специалисты</string>
+  <string name="dialogs">Диалоги</string>
+  <string name="profile">Профиль</string>
+  <string name="search_hint">Поиск по специальностям</string>
+  <string name="show_on_map"> Показать на карте</string>
+  <string name="show_list">Показать списком</string>
+  <string name="write">Написать</string>
+  <string name="call">Позвонить</string>
+  <string name="all_subcategs">Все подкатегории</string>
+  <string name="turn_internet_on">Включите Интернет.</string>
+  <string name="yes">Да</string>
+  <string name="no">Нет</string>
+  <string name="location_services_are_disabled">Сервисы геолокации отключены</string>
+  <string name="turn_them_on">Для работы приложения необходим доступ к данным о местоположении устройства. Включить их?</string>
+  <string name="getting_position">Определение местоположения</string>
+  <string name="sort">Сортировать</string>
+  <string name="by_distance">По удаленности</string>
+  <string name="by_rating">По рейтингу</string>
+  <string name="filter">Фильтр</string>
+  <string name="reset">Сбросить</string>
+  <string name="not_chosen">Не выбран</string>
+  <string name="km">км</string>
+  <string name="cancellation">Отмена</string>
+  <string name="getting_cities">Получение городов</string>
+  <string name="new_category">Новая категория</string>
+  <string name="enter_category_name">Введите название категории</string>
+  <string name="only_child_categs_can_be_chosen">Выберите дочернюю категорию</string>
+  <string name="email_not_exists">E-mail не зарегистрирован</string>
+  <string name="reg_confirmation">Подтверждение регистрации</string>
+  <string name="auth_confirmation">Подтверждение авторизации</string>
+  <string name="activation_aborted">Активация прервана</string>
+  <string name="now">от вас</string>
+  <string name="services_and_prices">Услуги и цены</string>
+  <string name="price">Цена</string>
+  <string name="choose_fhoto">Выберите фото</string>
+  <string name="skill_description">Описание специализации</string>
+  <string name="add_services_and_prices">Добавьте услуги и их стоимость</string>
+  <string name="portfolio">Портфолио</string>
+  <string name="give_examples_of_your_work">Выложите примеры вашей работы</string>
+  <string name="personal_data">Личные данные</string>
+  <string name="email">E-mail</string>
+  <string name="settings">Настройки</string>
+  <string name="your_city">Ваш город</string>
+  <string name="accept">Подтвердить</string>
+  <string name="country">Страна</string>
+  <string name="location">Местоположение</string>
+  <string name="region_for_search">Регион для поиска</string>
+  <string name="skip_choosing_specialization">Пропустить выбор специализации</string>
+  <string name="fill_all_entries">Имя и телефон — обязательные поля</string>
+  <string name="no_description">Нет описания</string>
+  <string name="email_already_exists">E-mail уже зарегистрирован</string>
+  <string name="add_name">Добавьте название</string>
+  <string name="change_description">Изменить описание</string>
+  <string name="add">Добавить</string>
+  <string name="delete_spec">Удалить специализацию?</string>
+  <string name="evaluate_the_work_of_a_specialist">Оцените работу специалиста и оставьте ваш отзыв</string>
+  <string name="expert_feedback">Отзыв о специалисте</string>
+  <string name="thanks_feedback_sent">Спасибо!\nВаш отзыв отправлен.</string>
+  <string name="reply">Ответить</string>
+  <string name="feedbacks">Отзывы</string>
+  <string name="feedback_response">Ответ на отзыв</string>
+  <string name="your_response">Ваш ответ</string>
+  <string name="response_text">Текст ответа</string>
+  <string name="sure_to_response">Вы уверены, что хотите отправить ответ?</string>
+  <string name="you_not_logined">Вы не авторизованы</string>
+  <string name="message">Сообщение</string>
+  <string name="no_dialogs">У вас пока нет диалогов</string>
+  <string name="choose_needed_expert">Выберите нужного специалиста чтобы начать общение</string>
+  <string name="ask_expert">Задайте вопрос специалисту</string>
+  <string name="expert">Специалист</string>
+  <string name ="number_not_specified">Номер не указан</string>
+  <string name="photo">Фото</string>
+  <string name="remove_photo">Удалить фото</string>
+  <string name="impossible_perform_operation">Невозможно выполнить операцию</string>
+  <string name="log_out">Выйти из профиля?</string>
+  <string name="make_photo">Сделать фото</string>
+  <string name="gallery_photo">Фото из галереи</string>
+  <string name="send_document">Отправить документ</string>
+  <string name="unable_upload">Невозможно загрузить</string>
+  <string name="unable_upload_from_this_folder">Невозможно загрузить из этой папки. Попробуйте прикрепить файл выбрав стандартный файловый менеджер</string>
+  <string name="file">Файл</string>
+  <string name="is_recording">Идёт запись звука</string>
+  <string name="attach">Прикрепить</string>
+  <string name="stop">Отменить</string>
+  <string name="voice_message">Голосовое сообщение</string>
+  <string name="iamn_notif">Сообщение от Iamnearby</string>
+  <string name="clear_chat_history">Очистить историю</string>
+  <string name="blacklist">Завершить беседу</string>
+  <string name="remove_from_blacklist">Возобновить беседу</string>
+  <string name="move_to_blacklist">Добавить в чёрный список</string>
+  <string name="turn_off_notifications">Выключить уведомления</string>
+  <string name="turn_on_notifications">Включить уведомления</string>
+  <string name="category_for_feedback">Категория для отзыва</string>
+  <string name ="cannot_leave_feedback">Нельзя оставить отзыв данному пользователю</string>
+  <string name ="cannot_leave_feedback_for_me">Нельзя оставить отзыв самому себе</string>
+  <string name="go_to_my_reviews">Оставленные мной отзывы</string>
+  <string name="my_reviews">Мои отзывы</string>
+  <string name="new_review">Новый отзыв Iamnearby</string>
+  <string name="answer_review">Ответ на отзыв Iamnearby</string>
+  <string name="feedback_my_response">Ответ на мой отзыв:</string>
+  <string name="change_coordinates">Сменить координаты</string>
+  <string name="search">Поиск</string>
+  <string name="apply">Применить</string>
+  <string name="choose_coords_by_long_tap">Выберите новые координаты длинным нажатием</string>
+  <string name="search_by_address">Поиск по адресу</string>
+  <string name="ok_">OK</string>
+  <string name="complete_login_procedure">Завершить процедуру входа</string>
+  <string name="complete_reg_procedure">Завершить процедуру регистрации</string>
+  <string name="no_confirmation_by_mail">Не было подтверждения через почту</string>
+  <string name="wrong_phone">Неверно заполнен телефон</string>
+  <string name="audio_playing">Аудио проигрывается</string>
+  <string name="audio_stopped">Аудио остановлено</string>
+  <string name="audio_ready">Запись готова к отправке</string>
+  <string name="dialog_with_expert">Диалог со специалистом</string>
+  <string name="how_can_i_call_you">Как к вам обращаться?</string>
+  <string name="remember_me">запомнить меня</string>
+  <string name ="enter_name">Введите своё имя</string>
+  <string name ="message_cant_be_sent_for_unauthorized">Сообщение не может быть отправлено для неавторизованного пользователя</string>
+  <string name ="cant_create_chat_with_yourself">Нельзя создать диалог с самим собой</string>
+  <string name ="work_location">Рабочее местоположение</string>
+  <string name ="getting_exps_count">Получение количества специалистов</string>
+  <string name ="install_google_play_services">Установите Google Play Services и обновите их для пользования картой</string>
+  <string name ="unable_upload_more_than_sixteen">Невозможно прикрепить файл размером более 16МБ</string>
+  <string name="dialog_search_hint">Поиск по диалогам</string>
+  <string name ="description_cannot_occupy_more_than_two_lines">Описание не может занимать больше двух строк</string>
+  <string name="delete_service">Удалить услугу?</string>
+  <string name="service_editing">Редактирование услуги</string>
+  <string name="restore_conversation">Возобновить беседу</string>
+  <string name="leave_rating_please">Пожалуйста, оставте оценку</string>
+  <string name="today">Сегодня</string>
+  <string name="permissions_needed">Необходимы разрешения для работы приложения. Их можно установить в настройках</string>
+  <string name="delete_message">Удалить сообщение</string>
+  <string name="about_me">О себе</string>
+  <string name="no_data">Данных нет</string>
+</resources>

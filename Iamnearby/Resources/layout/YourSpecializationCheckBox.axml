@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="53.5dp"
+        android:id="@+id/linearLayout1"
+        android:background="@color/buttonBackgroundColor">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="53.5dp"
+            android:id="@+id/backRelativeLayout"
+            android:layout_height="53.5dp">
+            <ImageButton
+                android:layout_width="13.5dp"
+                android:layout_height="13.5dp"
+                android:id="@+id/back_button"
+                android:background="@drawable/back_arrow"
+                android:layout_marginLeft="15.0dp"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView
+            android:text="@string/your_specialization"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/headerTV"
+            android:layout_marginLeft="69.0dp"
+            android:layout_centerVertical="true"
+            android:textSize="20dp" />
+        <EditText
+            android:layout_height="match_parent"
+            android:id="@+id/searchET"
+            android:inputType="text"
+            android:maxLines="1"
+            android:hint="@string/search_hint"
+            android:textColorHint="@color/lightLightBlueColor"
+            android:background="@android:color/transparent"
+            android:textCursorDrawable="@null"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@color/lightLightBlueColor"
+            android:textColorLink="@color/lightLightBlueColor"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="55.0dp"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/searchBn"
+            android:layout_width="17.0dp"
+            android:layout_height="16.5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/search_white"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="21.5dp"
+            android:visibility="visible" />
+        <ImageButton
+            android:id="@+id/close_searchBn"
+            android:background="@drawable/close_white"
+            android:layout_width="13.5dp"
+            android:layout_height="13.5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8.5dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="21.5dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/searchLL"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone">
+        <ProgressBar
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/activityIndicatorSearch"
+            android:layout_gravity="center_horizontal"
+            android:indeterminateOnly="true"
+            android:layout_marginTop="67dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone" />
+        <ImageView
+            android:layout_width="63.0dp"
+            android:layout_height="63.0dp"
+            android:id="@+id/nothingIV"
+            android:background="@drawable/dialog"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12.5dp"
+            android:visibility="gone" />
+        <TextView
+            android:text="@string/nothing"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nothingTV"
+            android:textColor="@color/agreementTextColor"
+            android:gravity="center"
+            android:layout_marginTop="7.0dp"
+            android:visibility="gone" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+	<ProgressBar
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/activityIndicator"
+		android:layout_gravity="center_horizontal"
+		android:indeterminateOnly="true"
+		android:layout_marginTop="78.0dp"
+		android:layout_centerHorizontal="true" />
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/recyclerView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginBottom="61.5dp"
+		android:layout_marginTop="52.0dp" />
+	<Button
+		android:text="@string/apply"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/applyBn"
+		android:background="@drawable/button_corners"
+		android:textColor="@android:color/white"
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="10.0dp"
+		android:layout_marginRight="8.5dp"
+		android:layout_marginLeft="8.5dp" />
+</RelativeLayout>

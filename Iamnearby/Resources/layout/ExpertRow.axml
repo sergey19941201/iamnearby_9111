@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="101.5dp"
+        android:id="@+id/linearLayout1"
+        android:background="@android:color/white">
+        <refractored.controls.CircleImageView
+            android:layout_width="50.0dp"
+            android:layout_height="50.0dp"
+            android:id="@+id/expert_imageIV"
+            android:layout_marginLeft="10.5dp"
+            cardview:civ_border_width="0dp"
+            cardview:civ_border_color="#FF000000"
+            android:layout_marginTop="26.5dp"
+            android:background="@drawable/photo_placeholder" />
+        <ImageView
+            android:id="@+id/onlineIV"
+            android:background="@drawable/onlinebadge"
+            android:visibility="visible"
+            android:layout_width="15.0dp"
+            android:layout_height="15.0dp"
+            android:layout_marginTop="62.0dp"
+            android:layout_marginLeft="7.0dp" />
+        <TextView
+            android:text="asddsdasasddsd"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/expert_nameTV"
+            android:layout_marginLeft="73.0dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:layout_marginTop="12.5dp"
+            android:textStyle="bold"
+            android:layout_marginRight="14.0dp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+        <TextView
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/count_specs"
+            android:gravity="center_vertical|right"
+            android:layout_marginRight="11.0dp"
+            android:textSize="20dp"
+            android:textColor="@color/lightBlueColor"
+            android:visibility="gone" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="20.0dp"
+            android:id="@+id/linearLayout3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginRight="14.5dp"
+            android:layout_marginTop="67.0dp">
+            <ImageView
+                android:id="@+id/distanceIV"
+                android:background="@drawable/location"
+                android:layout_width="9.5dp"
+                android:layout_height="9.5dp"
+                android:layout_marginRight="10.5dp"
+                android:layout_marginTop="5.5dp" />
+            <TextView
+                android:text="distance"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/distanceTV"
+                android:textColor="@color/buttonBackgroundColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center" />
+        </LinearLayout>
+        <TextView
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneTV"
+            android:textColor="@color/telephone_grey"
+            android:layout_marginTop="39.5dp"
+            android:layout_marginLeft="73.0dp"
+            android:textSize="14dp"
+            android:layout_centerVertical="true" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="20.0dp"
+            android:id="@+id/starsLL"
+            android:layout_marginLeft="73.0dp"
+            android:layout_marginTop="65.5dp">
+            <ImageView
+                android:layout_width="12.5dp"
+                android:layout_height="12.5dp"
+                android:id="@+id/star1IV"
+                android:background="@drawable/disabled_star"
+                android:layout_marginTop="0.0dp"
+                android:layout_marginRight="1.5dp"
+                android:layout_gravity="center_vertical" />
+            <ImageView
+                android:layout_width="12.5dp"
+                android:layout_height="12.5dp"
+                android:id="@+id/star2IV"
+                android:background="@drawable/disabled_star"
+                android:layout_marginLeft="3.5dp"
+                android:layout_marginTop="0.0dp"
+                android:layout_marginRight="1.5dp"
+                android:layout_gravity="center_vertical" />
+            <ImageView
+                android:layout_width="12.5dp"
+                android:layout_height="12.5dp"
+                android:id="@+id/star3IV"
+                android:background="@drawable/disabled_star"
+                android:layout_marginLeft="3.5dp"
+                android:layout_marginTop="0.0dp"
+                android:layout_marginRight="1.5dp"
+                android:foregroundGravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+            <ImageView
+                android:layout_width="12.5dp"
+                android:layout_height="12.5dp"
+                android:id="@+id/star4IV"
+                android:background="@drawable/disabled_star"
+                android:layout_marginLeft="3.5dp"
+                android:layout_marginTop="0.0dp"
+                android:layout_marginRight="1.5dp"
+                android:layout_gravity="center_vertical" />
+            <ImageView
+                android:layout_width="12.5dp"
+                android:layout_height="12.5dp"
+                android:id="@+id/star5IV"
+                android:background="@drawable/disabled_star"
+                android:layout_marginLeft="3.5dp"
+                android:layout_marginTop="0.0dp"
+                android:foregroundGravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+            <TextView
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rating_valueTV"
+                android:textColor="@color/buttonBackgroundColor"
+                android:layout_marginLeft="9.0dp"
+                android:layout_marginBottom="0.0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0.0dp"
+                android:foregroundGravity="center_vertical"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+        <Button
+            android:layout_width="82.0dp"
+            android:layout_height="20.5dp"
+            android:id="@+id/writeBn"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/writeBn"
+            android:textColor="@color/lightBlueColor"
+            android:textAllCaps="true"
+            android:textSize="10dp"
+            android:layout_marginRight="14.0dp"
+            android:layout_marginTop="15.5dp"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dp"
+        android:id="@+id/linearLayout2"
+        android:background="@color/mainSeparatorColor" />
+</LinearLayout>

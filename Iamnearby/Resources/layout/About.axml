@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackgroundColor">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="53.5dp"
+        android:id="@+id/linearLayout1"
+        android:background="@color/buttonBackgroundColor">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="53.5dp"
+            android:id="@+id/backRelativeLayout"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="13.5dp"
+                android:layout_height="13.5dp"
+                android:id="@+id/back_button"
+                android:background="@drawable/back_arrow"
+                android:layout_marginLeft="15.0dp"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView
+            android:text="@string/about_app"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/headerTV"
+            android:layout_marginLeft="69.0dp"
+            android:layout_centerVertical="true"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout3"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="53.5dp">
+        <TextView xmlns:p5="http://schemas.android.com/apk/res-auto"
+            android:text="@string/feedback_long_long_long_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dsadas"
+            android:textColor="@color/agreementTextColor"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20.5dp"
+            android:elegantTextHeight="false"
+            android:visibility="visible"
+            android:textAllCaps="false"
+            p5:textAllCaps="false"
+            android:textSize="15dp"
+            android:layout_marginTop="19.0dp"
+            android:paddingRight="10dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/linearLayout3"
+            android:background="#ececf4ff"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.CardView xmlns:p2="http://schemas.android.com/apk/res-auto"
+        p2:cardElevation="1dp"
+        p2:cardCornerRadius="10dp"
+        android:id="@+id/cardView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="8.5dp"
+        android:layout_marginLeft="8.5dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/linearLayout3"
+            android:background="#ececf4ff" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="13.0dp"
+            android:id="@+id/linearLayout3"
+            android:background="@color/mainBackgroundColor" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@android:color/background_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout5">
+            <RelativeLayout
+                android:orientation="vertical"
+                android:id="@+id/itemRL"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="90.5dp"
+                android:background="@android:color/background_light">
+                <ImageView
+                    android:id="@+id/choose_photoIV"
+                    android:background="@drawable/skill_small"
+                    android:layout_width="70.5dp"
+                    android:layout_height="70.5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17.0dp" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:id="@+id/linearLayout3"
+                    android:background="#ececf4ff"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentTop="true"
+                    android:visibility="visible" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:id="@+id/linearLayout3"
+                    android:background="#ececf4ff"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true" />
+                <TextView
+                    android:text="@string/feedback_long_text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/description_text_dataTV"
+                    android:textColor="@color/agreementTextColor"
+                    android:textSize="15dp"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57.5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="103.0dp"
+                    android:paddingRight="10dp" />
+            </RelativeLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/linearLayout3"
+                android:background="#ececf4ff"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="53.5dp"
+                android:id="@+id/linearLayout1">
+                <TextView
+                    android:text="@string/feedback_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/reviewCountTV"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/lightBlueColor"
+                    android:layout_marginLeft="20.5dp"
+                    android:layout_centerInParent="true"
+                    android:textAllCaps="true" />
+            </RelativeLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/linearLayout3111"
+                android:background="@color/mainBackgroundColor"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choose_photoIV"
+        android:id="@+id/notissimusLL"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37.0dp">
+        <ImageView
+            android:id="@+id/choose_photoIV"
+            android:background="@drawable/developed_in"
+            android:layout_width="125.0dp"
+            android:layout_height="15.5dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13.0dp" />
+        <ImageView
+            android:id="@+id/choose_photoIV"
+            android:background="@drawable/notissimus"
+            android:layout_width="228.5dp"
+            android:layout_height="18.0dp" />
+    </LinearLayout>
+</RelativeLayout>

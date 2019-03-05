@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/background_light">
+	<android.support.v7.widget.RecyclerView
+		android:divider="@null"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/recyclerview"
+		android:visibility="visible"
+		android:layout_marginBottom="58.5dp"
+		android:background="@android:color/background_light" />
+	<ProgressBar
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/activityIndicator"
+		android:indeterminateOnly="true"
+		android:layout_marginTop="9.5dp"
+		android:visibility="gone" />
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="58.5dp"
+		android:id="@+id/bottomLayout"
+		android:background="@color/mainSeparatorColor"
+		android:layout_alignParentBottom="true">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/specialistsLL"
+			android:layout_marginLeft="31.0dp"
+			android:layout_marginTop="3.0dp">
+			<ImageView
+				android:id="@+id/specialistsIB"
+				android:background="@drawable/specialists_pressed"
+				android:layout_width="18.0dp"
+				android:layout_height="17.5dp"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="11.5dp" />
+			<TextView
+				android:text="@string/specialists"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/specialistsTV"
+				android:textColor="#072883"
+				android:lineSpacingMultiplier="1"
+				android:layout_marginTop="3.5dp"
+				android:textSize="12dp" />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/dialogsLL"
+			android:layout_centerHorizontal="true">
+			<RelativeLayout
+				android:orientation="vertical"
+				android:layout_width="25.0dp"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout4"
+				android:layout_gravity="center_horizontal">
+				<ImageView
+					android:id="@+id/dialogsIV"
+					android:background="@drawable/dialogs_no_message"
+					android:layout_width="17.0dp"
+					android:layout_height="17.0dp"
+					android:layout_gravity="center_horizontal"
+					android:layout_marginTop="15.5dp"
+					android:layout_centerHorizontal="true" />
+				<ImageView
+					android:layout_width="9.0dp"
+					android:layout_height="9.0dp"
+					android:id="@+id/message_indicatorIV"
+					android:layout_alignParentRight="true"
+					android:background="@drawable/yellow_message_indicator"
+					android:layout_marginTop="12.0dp"
+					android:visibility="gone"
+					android:layout_marginRight="2dp" />
+			</RelativeLayout>
+			<TextView
+				android:text="@string/dialogs"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/dialogsTV"
+				android:textColor="@color/lightBlueColor"
+				android:layout_marginTop="3.5dp"
+				android:textSize="12dp" />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/profileLL"
+			android:layout_centerHorizontal="false"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="40.0dp">
+			<ImageView
+				android:id="@+id/profileIB"
+				android:background="@drawable/profile"
+				android:layout_width="14.0dp"
+				android:layout_height="17.0dp"
+				android:layout_gravity="center_horizontal"
+				android:layout_marginTop="15.0dp" />
+			<TextView
+				android:text="@string/profile"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/profileTV"
+				android:textColor="@color/lightBlueColor"
+				android:layout_marginTop="3.5dp"
+				android:textSize="12dp" />
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="53.5dp"
+        android:id="@+id/linearLayout1"
+        android:background="@color/buttonBackgroundColor">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="53.5dp"
+            android:id="@+id/backRelativeLayout"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:layout_width="13.5dp"
+                android:layout_height="13.5dp"
+                android:id="@+id/back_button"
+                android:background="@drawable/back_arrow"
+                android:layout_marginLeft="15.0dp"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView
+            android:text="@string/registration"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/headerTV"
+            android:layout_marginLeft="69.0dp"
+            android:layout_centerVertical="true"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <Button
+        android:text="@string/continue_text"
+        android:layout_width="match_parent"
+        android:layout_height="53.0dp"
+        android:id="@+id/continueBn"
+        android:layout_marginLeft="8.5dp"
+        android:layout_marginRight="8.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13.5dp"
+        android:background="@drawable/button_corners"
+        android:textColor="@android:color/white" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="72.0dp"
+        android:layout_marginTop="53.5dp" />
+</RelativeLayout>

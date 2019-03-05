@@ -1,0 +1,135 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/buttonBackgroundColor</item>
+    <item name="colorPrimaryDark">@color/navbar_color</item>
+    <item name="colorAccent">@color/buttonBackgroundColor</item>
+  </style>
+
+  <style name="AppThemeLightNavbar" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/buttonBackgroundColor</item>
+    <item name="colorPrimaryDark">@color/timerBackgroundColor</item>
+    <item name="colorAccent">@color/buttonBackgroundColor</item>
+  </style>
+  
+  <style name="TextInputStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="colorControlNormal">@color/textInputLayoutColor</item>
+    <item name="colorControlActivated">@color/textInputLayoutColor</item>
+    <item name="colorControlHighlight">@color/firstScreenButtonTextColor</item>
+    <item name="android:textColorHint">@color/textInputLayoutColor</item>
+    <item name="android:textSize">15dp</item>
+  </style>
+  
+  <style name="BigImageStyle" >
+    <item name="android:layout_marginTop">42dp</item>
+    <item name="android:layout_marginLeft">112dp</item>
+    <item name="android:layout_marginRight">112dp</item>
+    <item name="android:height">138dp</item>
+    <item name="android:width">138dp</item>
+  </style>
+  <style name="CheckBoxStyle" parent="Theme.AppCompat">
+    <item name="colorAccent">@color/buttonBackgroundColor</item>
+    <item name="android:textColorSecondary">@color/buttonBackgroundColor</item>
+  </style>
+  <style name="AlertStyle" parent="Theme.AppCompat">
+    <item name="colorAccent">@color/buttonBackgroundColor</item>
+    <item name="android:textColorPrimary">@color/buttonBackgroundColor</item>
+    <item name="android:textColorSecondary">@color/agreementTextColor</item>
+    <item name="android:background">#ffffff</item>
+    <item name="android:textColor">@color/buttonBackgroundColor</item>
+  </style>
+  <style name="SmallImageStyle" >
+    <item name="android:layout_marginTop">25dp</item>
+    <item name="android:layout_marginLeft">152dp</item>
+    <item name="android:layout_marginRight">152dp</item>
+    <item name="android:height">56dp</item>
+    <item name="android:width">56dp</item>
+  </style>
+
+  <style name="NothingSearchStyle" parent="SmallImageStyle">
+    <item name="android:layout_marginTop">156dp</item>
+    <item name="android:height">56dp</item>
+    <item name="android:width">56dp</item>
+  </style>
+
+  <style name="UnderImageTextStyle" >
+    <item name="android:textColor">#000000</item>
+    <item name="android:layout_marginTop">28dp</item>
+    <item name="android:layout_marginLeft">72dp</item>
+    <item name="android:layout_marginRight">72dp</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="UnderTextStyle" >
+    <item name="android:textColor">#000000</item>
+    <item name="android:layout_marginLeft">72dp</item>
+    <item name="android:layout_marginRight">72dp</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="ClearBackground" >
+    <item name="android:background">@color/clearColor</item>
+  </style>
+
+  <style name="ClearButtonCapsOffBackground" parent="Widget.AppCompat.Button">
+    <item name="android:background">@color/clearColor</item>
+    <item name="android:textAllCaps">false</item>
+  </style>
+
+
+  <style name="TimerBackground" >
+    <item name="android:layout_marginLeft">162dp</item>
+    <item name="android:layout_marginRight">162dp</item>
+    <item name="android:layout_marginTop">16dp</item>
+    <item name="android:background">#ECF4FF</item>
+    <item name="android:radius">12dp</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="SpecializationCell">
+    <item name="android:layout_marginLeft">12dp</item>
+    <item name="android:layout_marginRight">16dp</item>
+    <item name="android:layout_marginTop">16dp</item>
+    <item name="android:layout_marginBottom">16dp</item>
+  </style>
+
+  <style name="RepairCell">
+    <item name="android:layout_marginLeft">16dp</item>
+    <item name="android:layout_marginRight">16dp</item>
+    <item name="android:layout_marginTop">8dp</item>
+    <item name="android:layout_marginBottom">8dp</item>
+    <item name="android:layout_height">@dimen/cell_height_72</item>
+  </style>
+
+  <style name="AddSpecialization">
+    <item name="android:textAllCaps">true</item>
+    <item name="android:textColor">@color/lightBlueColor</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="AddSpecialization2">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">#333333</item>
+  </style>
+
+  <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+    <item name="android:progressBackgroundTint">#abcff7</item>
+    <item name="android:progressTint">#072883</item>
+    <item name="android:colorControlActivated">#072883</item>
+    <item name="android:colorControlHighlight">#abcff7</item>
+  </style>
+
+  <style name="SwitchStyle" parent="Theme.AppCompat.Light">
+    <item name="android:colorControlActivated">#1a237e</item>
+    <item name="android:colorControlNormal">#000000</item>
+  </style>
+
+  <style name="SearchViewStyle" parent="Theme.AppCompat">
+    <item name="colorAccent">@color/lightBlueColor</item>
+    <item name="android:textColorSecondary">@color/lightBlueColor</item>
+  </style>
+
+</resources>
