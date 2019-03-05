@@ -1,13 +1,17 @@
 ﻿<Properties StartupConfiguration="{50745047-E63B-4A31-A881-C5AF4CDD040D}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Iamnearby/Activities/MainActivity.cs">
+    <Files>
+      <File FileName="PCL/HttpMethods/ProfileAndExpertMethods.cs" Line="5" Column="14" />
+      <File FileName="Iamnearby/MyFirebaseIIDService.cs" Line="17" Column="1" />
+      <File FileName="Iamnearby/Activities/MainActivity.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Iamnearby AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.S260B1ZH61061999" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/serhiikoshelnyk/GitHub/16/Iamnearby/Activities/UserProfileActivity.cs" relfile="Iamnearby/Activities/UserProfileActivity.cs" line="221" column="1" />
-      <Breakpoint file="/Users/serhiikoshelnyk/GitHub/16/Iamnearby/MyFirebaseIIDService.cs" relfile="Iamnearby/MyFirebaseIIDService.cs" line="18" column="64" />
-      <Breakpoint file="/Users/serhiikoshelnyk/GitHub/16/Iamnearby/MyFirebaseIIDService.cs" relfile="Iamnearby/MyFirebaseIIDService.cs" line="17" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
